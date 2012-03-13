@@ -12,4 +12,5 @@
 	// ivars go here
 }
 - (NSString *)sayHi;
+- (NSString *)sayHelloTo:(NSString *)inputName isLeaving:(BOOL)leaving;
 @end
