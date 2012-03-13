@@ -10,6 +10,7 @@
 		D11606F2150FFE1B00DF996D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D11606F1150FFE1B00DF996D /* Foundation.framework */; };
 		D11606F5150FFE1B00DF996D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D11606F4150FFE1B00DF996D /* main.m */; };
 		D11606F9150FFE1B00DF996D /* WelcomeFoundation.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = D11606F8150FFE1B00DF996D /* WelcomeFoundation.1 */; };
+		D1160701150FFE5C00DF996D /* Greeting.m in Sources */ = {isa = PBXBuildFile; fileRef = D1160700150FFE5C00DF996D /* Greeting.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		D11606F4150FFE1B00DF996D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D11606F7150FFE1B00DF996D /* WelcomeFoundation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WelcomeFoundation-Prefix.pch"; sourceTree = "<group>"; };
 		D11606F8150FFE1B00DF996D /* WelcomeFoundation.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = WelcomeFoundation.1; sourceTree = "<group>"; };
+		D11606FF150FFE5C00DF996D /* Greeting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Greeting.h; sourceTree = "<group>"; };
+		D1160700150FFE5C00DF996D /* Greeting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Greeting.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				D11606F4150FFE1B00DF996D /* main.m */,
+				D11606FF150FFE5C00DF996D /* Greeting.h */,
+				D1160700150FFE5C00DF996D /* Greeting.m */,
 				D11606F8150FFE1B00DF996D /* WelcomeFoundation.1 */,
 				D11606F6150FFE1B00DF996D /* Supporting Files */,
 			);
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D11606F5150FFE1B00DF996D /* main.m in Sources */,
+				D1160701150FFE5C00DF996D /* Greeting.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
