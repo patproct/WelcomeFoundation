@@ -13,9 +13,10 @@ int main (int argc, const char * argv[])
 {
 
 	@autoreleasepool {
-	    
+	    Greeting *intro = [Greeting new];
+		
 	    // insert code here...
-	    NSLog(@"Hello, World!");
+	    NSLog(@"%@", [intro sayHi]);
 	    
 	}
     return 0;
