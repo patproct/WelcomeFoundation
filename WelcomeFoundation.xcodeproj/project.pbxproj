@@ -76,9 +76,8 @@
 		D11606F3150FFE1B00DF996D /* WelcomeFoundation */ = {
 			isa = PBXGroup;
 			children = (
+				D1160702150FFE7F00DF996D /* Classes */,
 				D11606F4150FFE1B00DF996D /* main.m */,
-				D11606FF150FFE5C00DF996D /* Greeting.h */,
-				D1160700150FFE5C00DF996D /* Greeting.m */,
 				D11606F8150FFE1B00DF996D /* WelcomeFoundation.1 */,
 				D11606F6150FFE1B00DF996D /* Supporting Files */,
 			);
@@ -91,6 +90,15 @@
 				D11606F7150FFE1B00DF996D /* WelcomeFoundation-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D1160702150FFE7F00DF996D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D11606FF150FFE5C00DF996D /* Greeting.h */,
+				D1160700150FFE5C00DF996D /* Greeting.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

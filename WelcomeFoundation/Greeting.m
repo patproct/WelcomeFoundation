@@ -9,5 +9,7 @@
 #import "Greeting.h"
 
 @implementation Greeting
-
+- (NSString *)sayHi {
+	return [NSString stringWithString:@"Hello world"];
+}
 @end

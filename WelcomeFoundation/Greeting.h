@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Greeting : NSObject
-
+@interface Greeting : NSObject {
+	// ivars go here
+}
+- (NSString *)sayHi;
 @end
