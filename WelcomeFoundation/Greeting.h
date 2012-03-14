@@ -9,7 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface Greeting : NSObject {
-	// ivars go here
 	NSMutableString *helloGoodbye;
 }
 
