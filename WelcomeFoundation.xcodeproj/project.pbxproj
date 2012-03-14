@@ -34,7 +34,6 @@
 		D11606F8150FFE1B00DF996D /* WelcomeFoundation.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = WelcomeFoundation.1; sourceTree = "<group>"; };
 		D11606FF150FFE5C00DF996D /* Greeting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = Greeting.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		D1160700150FFE5C00DF996D /* Greeting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = Greeting.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		D139026E151045F700DAE1F2 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +87,6 @@
 		D11606F6150FFE1B00DF996D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D139026E151045F700DAE1F2 /* README */,
 				D11606F7150FFE1B00DF996D /* WelcomeFoundation-Prefix.pch */,
 			);
 			name = "Supporting Files";

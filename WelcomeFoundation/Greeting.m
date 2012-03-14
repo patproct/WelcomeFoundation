@@ -18,9 +18,7 @@
 }
 
 - (NSString *)sayHello:(BOOL)arriving to:(NSString *)inputName {
-	// This method has two arguments: a BOOL to describe if someone is
-	// coming or going and an NSString for the person's name. If nil is
-	// supplied, "world" will be used.
+	// This method has two arguments: a BOOL to describe if someone is coming or going and an NSString for the person's name. If nil is supplied, "world" will be used.
 	
 	if (inputName == nil)
 		inputName = @"world";
@@ -32,6 +30,7 @@
 
 - (id)init {
 	if (self = [super init]) {
+		// Sets a default value on the "helloGoobye" ivar
 		helloGoodbye = [[NSMutableString alloc] initWithString:@"Hello"];
 	}
 	return self;
