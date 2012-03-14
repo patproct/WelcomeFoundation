@@ -15,9 +15,7 @@ int main (int argc, const char * argv[])
 	@autoreleasepool {
 	    Greeting *intro = [Greeting new];
 		
-	    // insert code here...
 	    NSLog(@"%@", [intro sayHello:YES to:nil]);
-	    
 	}
     return 0;
 }

@@ -12,7 +12,7 @@
 
 @synthesize helloGoodbye;
 
-- (NSString *)sayHi {
++ (NSString *)sayHi {
 	// Simply call this method and it will return a "Hello world" NSString.
 	return [NSString stringWithString:@"Hello world."];
 }

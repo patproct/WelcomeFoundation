@@ -14,6 +14,6 @@
 
 @property (atomic, retain) NSMutableString *helloGoodbye;
 
-- (NSString *)sayHi;
++ (NSString *)sayHi;
 - (NSString *)sayHello:(BOOL)arriving to:(NSString *)inputName;
 @end
