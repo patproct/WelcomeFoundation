@@ -16,10 +16,8 @@ int main (int argc, const char * argv[])
 	    Greeting *intro = [Greeting new];
 		
 	    // insert code here...
-	    NSLog(@"%@", [intro sayHello:NO
-								  to:@"Patrick"]);
+	    NSLog(@"%@", [intro sayHello:YES to:nil]);
 	    
 	}
     return 0;
 }
-

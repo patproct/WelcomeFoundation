@@ -17,8 +17,7 @@
 	return [NSString stringWithString:@"Hello world."];
 }
 
-- (NSString *)sayHello:(BOOL)arriving
-					to:(NSString *)inputName {
+- (NSString *)sayHello:(BOOL)arriving to:(NSString *)inputName {
 	// This method has two arguments: a BOOL to describe if someone is
 	// coming or going and an NSString for the person's name. If nil is
 	// supplied, "world" will be used.
