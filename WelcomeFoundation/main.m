@@ -16,6 +16,7 @@ int main (int argc, const char * argv[])
 	    Greeting *intro = [Greeting new];
 		
 	    NSLog(@"%@", [intro sayHello:YES to:nil]);
+		NSLog(@"%@", [Greeting theDate]);
 	}
     return 0;
 }

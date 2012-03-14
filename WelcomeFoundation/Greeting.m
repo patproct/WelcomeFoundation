@@ -12,6 +12,13 @@
 
 @synthesize helloGoodbye;
 
++ (NSString *)theDate {
+	NSString *formattedDate = [NSDateFormatter localizedStringFromDate:[NSDate date]
+															 dateStyle:NSDateFormatterLongStyle
+															 timeStyle:NSDateFormatterShortStyle];
+	return formattedDate;
+}
+
 + (NSString *)sayHi {
 	// Simply call this method and it will return a "Hello world" NSString.
 	return [NSString stringWithString:@"Hello world."];
