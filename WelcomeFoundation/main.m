@@ -15,8 +15,7 @@ int main (int argc, const char * argv[])
 	@autoreleasepool {
 	    Greeting *intro = [Greeting new];
 		
-	    NSLog(@"%@", [intro sayHello:YES to:nil]);
-		NSLog(@"%@", [Greeting theDate]);
+	    NSLog(@"%@ - (%@)", [intro sayHello:YES to:nil], [Greeting theDate]);
 	}
     return 0;
 }

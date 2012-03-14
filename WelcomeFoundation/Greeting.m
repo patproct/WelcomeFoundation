@@ -13,10 +13,16 @@
 @synthesize helloGoodbye;
 
 + (NSString *)theDate {
-	NSString *formattedDate = [NSDateFormatter localizedStringFromDate:[NSDate date]
-															 dateStyle:NSDateFormatterLongStyle
-															 timeStyle:NSDateFormatterShortStyle];
-	return formattedDate;
+	// return [NSDateFormatter localizedStringFromDate:[NSDate date]
+	//									  dateStyle:NSDateFormatterLongStyle
+	//									  timeStyle:NSDateFormatterShortStyle];
+	NSDateFormatter *format = [[NSDateFormatter alloc] init];
+	[format setDateFormat:@"MMMM d, yyyy 'at' h:mm zzz"];
+	
+	NSDate *date = [NSDate date];
+	
+	NSString *formattedDateString = [format stringFromDate:date];
+	return formattedDateString;
 }
 
 + (NSString *)sayHi {
