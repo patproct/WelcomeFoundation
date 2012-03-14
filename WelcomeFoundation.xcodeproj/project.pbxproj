@@ -29,11 +29,11 @@
 /* Begin PBXFileReference section */
 		D11606ED150FFE1B00DF996D /* WelcomeFoundation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WelcomeFoundation; sourceTree = BUILT_PRODUCTS_DIR; };
 		D11606F1150FFE1B00DF996D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		D11606F4150FFE1B00DF996D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D11606F4150FFE1B00DF996D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		D11606F7150FFE1B00DF996D /* WelcomeFoundation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WelcomeFoundation-Prefix.pch"; sourceTree = "<group>"; };
 		D11606F8150FFE1B00DF996D /* WelcomeFoundation.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = WelcomeFoundation.1; sourceTree = "<group>"; };
-		D11606FF150FFE5C00DF996D /* Greeting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Greeting.h; sourceTree = "<group>"; };
-		D1160700150FFE5C00DF996D /* Greeting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Greeting.m; sourceTree = "<group>"; };
+		D11606FF150FFE5C00DF996D /* Greeting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = Greeting.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		D1160700150FFE5C00DF996D /* Greeting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = Greeting.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

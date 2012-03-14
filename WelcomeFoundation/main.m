@@ -3,7 +3,7 @@
 //  WelcomeFoundation
 //
 //  Created by Patrick Proctor on 3/13/12.
-//  Copyright (c) 2012 Soylent Industries. All rights reserved.
+//  Copyright (c) 2012 ThreeOneSeven. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -16,7 +16,8 @@ int main (int argc, const char * argv[])
 	    Greeting *intro = [Greeting new];
 		
 	    // insert code here...
-	    NSLog(@"%@", [intro sayHelloTo:@"Mr. Derp" isLeaving:YES]);
+	    NSLog(@"%@", [intro sayHello:NO
+								  to:@"Patrick"]);
 	    
 	}
     return 0;
